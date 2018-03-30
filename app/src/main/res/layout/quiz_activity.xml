@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quiz.quizapp.QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcfcfc"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question1" />
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question_1_question" />
+
+            <RadioGroup
+                android:id="@+id/quiz_radio_group1"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/q1_option1"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/q1_o1" />
+
+                <RadioButton
+                    android:id="@+id/q1_option2"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/q1_o2" />
+
+                <RadioButton
+                    android:id="@+id/q1_option3"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/q1_o3" />
+
+                <RadioButton
+                    android:id="@+id/q1_option4"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/q1_o4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question2" />
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question_2_question" />
+
+            <RadioGroup
+                android:id="@+id/quiz_radio_group2"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/q2_option1"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked2"
+                    android:text="@string/q2_o1" />
+
+                <RadioButton
+                    android:id="@+id/q2_option2"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked2"
+                    android:text="@string/q2_o2" />
+
+                <RadioButton
+                    android:id="@+id/q2_option3"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked2"
+                    android:text="@string/q2_o3" />
+
+                <RadioButton
+                    android:id="@+id/q2_option4"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked2"
+                    android:text="@string/q2_o4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question3" />
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question_3_question" />
+
+            <RadioGroup
+                android:id="@+id/quiz_radio_group3"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/q3_option1"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked3"
+                    android:text="@string/q3_o1" />
+
+                <RadioButton
+                    android:id="@+id/q3_option2"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked3"
+                    android:text="@string/q3_o2" />
+
+                <RadioButton
+                    android:id="@+id/q3_option3"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked3"
+                    android:text="@string/q3_o3" />
+
+                <RadioButton
+                    android:id="@+id/q3_option4"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked3"
+                    android:text="@string/q3_o4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question4" />
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question_4_question" />
+
+            <RadioGroup
+                android:id="@+id/quiz_radio_group4"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/q4_option1"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/q4_o1" />
+
+                <RadioButton
+                    android:id="@+id/q4_option2"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/q4_o2" />
+
+                <RadioButton
+                    android:id="@+id/q4_option3"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/q4_o3" />
+
+                <RadioButton
+                    android:id="@+id/q4_option4"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked4"
+                    android:text="@string/q4_o4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question5" />
+
+            <TextView
+                style="@style/QuestionsStyle"
+                android:text="@string/question_5_question" />
+
+            <RadioGroup
+                android:id="@+id/quiz_radio_group5"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/q5_option1"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked5"
+                    android:text="@string/q5_o1" />
+
+                <RadioButton
+                    android:id="@+id/q5_option2"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked5"
+                    android:text="@string/q5_o2" />
+
+                <RadioButton
+                    android:id="@+id/q5_option3"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked5"
+                    android:text="@string/q5_o3" />
+
+                <RadioButton
+                    android:id="@+id/q5_option4"
+                    style="@style/RadioButtonsStyle"
+                    android:onClick="onRadioButtonClicked5"
+                    android:text="@string/q5_o4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/ResultButtonStyle"
+            android:onClick="showResult" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

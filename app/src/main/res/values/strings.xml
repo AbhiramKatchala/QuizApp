@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="java">Java</string>
+    <string name="html">HTML</string>
+    <string name="android">Android</string>
+    <string name="angular">Angular JS</string>
+    <string name="css">CSS</string>
+
+    <!--Java Questions List-->
+    <!--question one-->
+    <string name="question1">Question 1</string>
+    <string name="question_1_question">Which class can access all public and protected methods and fields of its super class?</string>
+    <string name="q1_o1">Inner class</string>
+    <string name="q1_o2">outer class</string>
+    <string name="q1_o3">sub-class</string>
+    <string name="q1_o4">Super class</string>
+
+    <!--question Two-->
+    <string name="question2">Question 2</string>
+    <string name="question_2_question">Method,Field can be accessed from the same class to which they belong.</string>
+    <string name="q2_o1">Public</string>
+    <string name="q2_o2">Protected</string>
+    <string name="q2_o3">Default</string>
+    <string name="q2_o4">Private</string>
+
+    <!--question Three-->
+    <string name="question3">Question 3</string>
+    <string name="question_3_question">In java, float takes _________ bytes in memory.</string>
+    <string name="q3_o1">8</string>
+    <string name="q3_o2">4</string>
+    <string name="q3_o3">2</string>
+    <string name="q3_o4">16</string>
+
+    <!--question Four-->
+    <string name="question4">Question 4</string>
+    <string name="question_4_question"> What will be the output of Round(3.7).</string>
+    <string name="q4_o1">4</string>
+    <string name="q4_o2">3.7</string>
+    <string name="q4_o3">3</string>
+    <string name="q4_o4">0</string>
+
+    <!--question Five-->
+    <string name="question5">Question 5</string>
+    <string name="question_5_question">Which tool is required on each machine to run a Java program?</string>
+    <string name="q5_o1">JDK</string>
+    <string name="q5_o2">SDK</string>
+    <string name="q5_o3">JRE</string>
+    <string name="q5_o4">CVS</string>
+
+</resources>
